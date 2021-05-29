@@ -1,0 +1,21 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+i {
+  margin-right: 10px;
+}
+/* .w25 {
+  width: 25%;
+}
+.w50 {
+  width: 50%;
+}
+.w75 {
+  width: 75%;
+} */
