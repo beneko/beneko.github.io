@@ -18,8 +18,11 @@
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script/script.js"></script>
+    <!-- Version production. celle-ci est optimisée pour la taille et la vitesse -->
+<!--    <script src="script/vue.js"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>-->
   </head>
-  <body class="w3-light-grey w3-animate-opacity">
+  <body id="app" class="w3-light-grey w3-animate-opacity">
     <!-- Header/Home -->
     <header id="accueil" class="w3-black w3-cell-row">
       <div class="w3-container w3-cell  w3-opacity w3-hover-sepia w3-mobile">
@@ -132,7 +135,7 @@
   </a> -->
   </nav>
     <main id="main" class="w3-cell-row">
-      <aside class="w3-blue w3-cell w3-container w3-mobile w3-cell w3-center w3-card-4 w3-animate-left">
+      <aside class="w3-blue w3-container w3-cell w3-mobile w3-cell w3-center w3-card-4 w3-animate-left">
         <article
           id="coordonnees"
           class="w3-padding-32 w3-bottombar w3-border-white"
@@ -169,16 +172,31 @@
           <p>Java</p>
           <p>PHP</p>
           <p>SQL</p>
-          <h4 class="w3-text-black">Frameworks / Méthodes </h4>
+
+          <h4 class="w3-text-black">Frameworks / Technologie </h4>
           <p>Bootstrap</p>
           <p>W3.css</p>
           <p>Symfony</p>
+          <p>Composer</p>
+          <p>Twig</p>
           <p>jQuery</p>
           <p>AJAX</p>
           <p>Angular</p>
           <p>Vue.js</p>
-<!--          <p>React</p>-->
-          <h4 class="w3-text-black"> SGBD </h4>
+          <p>JavaFX</p>
+          <p>Java SE</p>
+          <p>Junit</p>
+
+          <h4 class="w3-text-black">API</h4>
+          <p>API-Platform</p>
+          <p>JDBC</p>
+
+          <h4 class="w3-text-black">IDE</h4>
+          <p>PhpStorm</p>
+          <p>IntelliJ</p>
+          <p>VS Code</p>
+
+          <h4 class="w3-text-black"> SGBDR </h4>
           <p>MySQL / MariaDB</p>
           <h4 class="w3-text-black">Compétences techniques</h4>
           <p>Git / GitHub / GitLab</p>
@@ -220,7 +238,7 @@
           </div>
         </article>
       </aside>
-      <div class="w3-container w3-cell w3-mobile w3-cell w3-animate-right">
+      <div class="w3-container w3-cell w3-mobile w3-animate-right">
         <section
         id="experiance"
         class="w3-container w3-bar w3-bottombar w3-border-blue"
@@ -367,11 +385,7 @@
             <h2 class="w3-text-blue">NIVEAU LICENCE INFORMATIQUE</h2>
             <p><i class="w3-xlarge far fa-calendar-alt"></i>2015</p>
             <i class="w3-xlarge fas fa-link"></i>
-            <a
-              href="http://en.pnu.ac.ir/Portal/Home/"
-              title="Université Payame Noor"
-              ><strong>Université Payame Noor</strong></a
-            >
+            <strong>Université Payame Noor</strong>
             <p>Domaine de formation : INFORMATIQUE<br />niveau licence/bac+3</p>
             <p><i class="fa fa-map-marker w3-xlarge"></i>Ispahan, IRAN</p>
           </article>
@@ -379,11 +393,7 @@
             <h2 class="w3-text-blue">NIVEAU LICENCE PHYSIQUE</h2>
             <p><i class="w3-xlarge far fa-calendar-alt"></i>2009</p>
             <i class="w3-xlarge fas fa-link"></i>
-            <a
-              href="http://en.pnu.ac.ir/Portal/Home/"
-              title="Université Payame Noor"
-              ><strong>Université Payame Noor</strong></a
-            >
+            <strong>Université Payame Noor</strong>
             <p>Domaine de formation : PHYSIQUE <br />niveau licence/bac+3</p>
             <p><i class="fa fa-map-marker w3-xlarge"></i>Ispahan, IRAN</p>
           </article> -->
@@ -503,7 +513,9 @@
           ><i class="w3-xxlarge w3-text-blue w3-hover-opacity fab fa-github"></i
         ></a>
       </div>
-      <div class="w3-padding-32 w3-hide-large"></div>
+      <div class="w3-padding-32 w3-hide-large">
+
+      </div>
     </footer>
   </body>
 </html>
